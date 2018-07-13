@@ -113,7 +113,7 @@ from PIL import Image
                 # 加速度
                 a = 2
             else:
-                a = 3
+                a = -3
             v0 = v
             # 当前速度v = v0 + a*t
             v = v0 + a * t
